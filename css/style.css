@@ -58,7 +58,6 @@
 
 .main-title.view .ttlChar {
   display: inline-block;
-  font-size: 30px;
   -webkit-animation-name: falling-title;
           animation-name: falling-title;
   -webkit-animation-fill-mode: both;
@@ -382,6 +381,7 @@ header .a-content .head-right .reserve-btn .head-reserve {
 
 .welcome-wrapper .welcome-content .welcome-images .swiper-container {
   width: 100%;
+  vertical-align: bottom;
 }
 
 .welcome-wrapper .welcome-content .welcome-images .w-image {

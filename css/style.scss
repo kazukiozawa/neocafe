@@ -49,7 +49,7 @@
 
     .ttlChar {
       display: inline-block;
-      font-size: 30px;
+      // font-size: 30px;
 
       &:nth-child(1){
         color: red;
@@ -346,6 +346,7 @@ a {
 
       .swiper-container {
         width: 100%;
+        vertical-align: bottom;
         
       }
       
