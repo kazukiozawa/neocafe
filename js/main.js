@@ -251,3 +251,16 @@ document.addEventListener('DOMContentLoaded', function () {
         
 });    
 
+const mySwiper = new Swiper ('.swiper-container', {
+    
+    loop: true, 
+    effect: 'fade',
+    speed: 800,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: true,
+      },
+ 
+    
+})
+

@@ -343,6 +343,11 @@ a {
       box-sizing: border-box;
       width: 60%;
       padding-top: 20px;
+
+      .swiper-container {
+        width: 100%;
+        
+      }
       
       .w-image {
         min-height: 450px;
