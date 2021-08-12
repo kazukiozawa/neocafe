@@ -1,7 +1,29 @@
 @import "mixin";
 // @import "style";
 
-@media (max-width: 1000px){
+@media (max-width: 1024px){
+  header {
+    height: 122px;
+
+    .content {
+      height: 122px;
+
+      .a-content {
+        .header-move {
+          .menus {
+            & li {
+              & a  {
+                line-height: 122px;
+              }
+            }
+
+          }
+        }
+        
+      }
+    }
+
+  }
   .welcome-wrapper {
     .welcome-content {
       flex-direction: column-reverse;
