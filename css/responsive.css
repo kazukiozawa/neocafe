@@ -96,6 +96,13 @@
   header .a-content .head-right .reserve-btn {
     margin-left: 40%;
   }
+  .main-image .full-img {
+    display: none;
+  }
+  .main-image .responsive-img {
+    display: block;
+    width: 100%;
+  }
   .menu-wrapper .menu-content {
     width: 80% !important;
   }
@@ -254,12 +261,6 @@
   }
   .btn700 > span:last-child {
     margin-bottom: 0;
-  }
-  .main-image .full-img {
-    display: none;
-  }
-  .main-image .responsive-img {
-    display: block;
   }
   .before-welcome {
     padding-left: 4%;

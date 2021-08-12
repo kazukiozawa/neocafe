@@ -133,6 +133,18 @@
       }
     }
 
+    .main-image {
+      
+      .full-img {
+        display: none;
+      }
+      .responsive-img {
+        display: block;
+        width: 100%;
+       
+      }
+    }
+
     .menu-wrapper {
       // padding-bottom: 0px;
       .menu-content {
@@ -382,18 +394,6 @@
       }
     } 
 
-
-    .main-image {
-      .full-img {
-        display: none;
-      }
-      .responsive-img {
-        display: block;
-      }
-    }
-
-    
-    
   
     .before-welcome {
       padding-left: 4%;
