@@ -1,7 +1,29 @@
 @import "mixin";
 // @import "style";
 
-@media (max-width: 1000px){
+@media (max-width: 1024px){
+  header {
+    height: 122px;
+
+    .content {
+      height: 122px;
+
+      .a-content {
+        .header-move {
+          .menus {
+            & li {
+              & a  {
+                line-height: 122px;
+              }
+            }
+
+          }
+        }
+        
+      }
+    }
+
+  }
   .welcome-wrapper {
     .welcome-content {
       flex-direction: column-reverse;
@@ -88,26 +110,54 @@
 
     header {
       // display: none;
-  
-      & img {
-        width: 170px;
+      .logo {
+        & img {
+          width: 159px;
+          padding: 24px 0 0 10px;
+        }
+
       }
   
-      .a-content {
+    .a-content {
         justify-content: none;
   
         .header-move {
-          flex: 2;
+          flex-grow: 2;
+
+          .menus  {
+            & li {
+              & a {
+                font-size: 14.5px;
+
+              }
+            }
+          }
           
         }
         .head-right {
+          flex-grow: 0;
           
-          flex: 1;
-    
           .reserve-btn {
-            margin-left: 40%  ;
+            width: 117px;
+            margin-left: 0  ;
+
+            .reserve-str {
+              font-size: 14.5px;
+            }
           }
         }
+      }
+    }
+
+    .main-image {
+      
+      .full-img {
+        display: none;
+      }
+      .responsive-img {
+        display: block;
+        width: 100%;
+       
       }
     }
 
@@ -118,6 +168,10 @@
         
       }
 
+    }
+
+    .before-welcome {
+      padding:120px 0 80px 12vw;
     }
   
   
@@ -209,7 +263,7 @@
   
   }  
   
-@media  (max-width: 700px) {
+@media  (max-width: 599px) {
     p {
       font-size: 14px;
       line-height: 20px ;
@@ -242,12 +296,14 @@
     .content {
       justify-content: space-between;
       text-align: center;
+      height: 10vh;
       
         }
   
         .logo {
             & img {
                 width: 130px;
+                padding-top: 1.4vh;
                 // margin-top: 5px;
                 display: inline-block;
       
@@ -360,18 +416,6 @@
       }
     } 
 
-
-    .main-image {
-      .full-img {
-        display: none;
-      }
-      .responsive-img {
-        display: block;
-      }
-    }
-
-    
-    
   
     .before-welcome {
       padding-left: 4%;
@@ -912,9 +956,9 @@
   
     .main-image {
       .front {
-        height: 200px;
+        height: 360px;
         width: none;
-        object-fit: cover;
+        object-fit: fill;
   
       }
   

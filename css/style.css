@@ -252,11 +252,11 @@ header .a-content .head-right .reserve-btn:hover {
   background: #c92b2b;
 }
 
-header .a-content .head-right .reserve-btn:hover .head-reserve {
+header .a-content .head-right .reserve-btn:hover .reserve-str {
   color: white;
 }
 
-header .a-content .head-right .reserve-btn .head-reserve {
+header .a-content .head-right .reserve-btn .reserve-str {
   color: black;
   display: block;
 }
