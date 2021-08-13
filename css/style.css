@@ -265,12 +265,6 @@ header .a-content .head-right .reserve-btn .reserve-str {
   width: 100%;
 }
 
-.main-image .front::before {
-  display: block;
-  content: '';
-  padding-top: 50%;
-}
-
 .main-image .responsive-img {
   display: none;
 }
